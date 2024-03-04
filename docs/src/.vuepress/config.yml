@@ -1,4 +1,4 @@
-base: /New_Curriculum_Template/
+base: /Level5/
 description: A Demo of the League Curriculum websites
 head:
 - - meta
@@ -18,7 +18,7 @@ plugins:
 - '@vuepress/plugin-back-to-top'
 - '@vuepress/plugin-medium-zoom'
 themeConfig:
-  displayAllHeaders: true
+  displayAllHeaders: false
   docsDir: ''
   editLinkText: ''
   editLinks: false
@@ -34,14 +34,74 @@ themeConfig:
   - path: /
     title: Introduction
   - children:
-    - path: /lessons/lesson1/assignment_a/
-      title: Assignment A
+    - path: /lessons/Module0/00_JButtons_with_Lambdas/
+      title: 00 Jbuttons With Lambdas
+    - path: /lessons/Module0/01_Lambda_Methods/
+      title: 01 Lambda Methods
+    - path: /lessons/Module0/02_Intro_To_Streams/
+      title: 02 Intro To Streams
+    - path: /lessons/Module0/03_Sorting_With_Streams/
+      title: 03 Sorting With Streams
+    - path: /lessons/Module0/04_Searching_With_Streams/
+      title: 04 Searching With Streams
+    - path: /lessons/Module0/05_Minesweeper/
+      title: 05 Minesweeper
     collapsable: false
-    title: Getting Started
+    title: Module0
   - children:
-    - path: /lessons/lesson2/assignment_b/
-      title: Assignment B
+    - path: /lessons/Module1/00_Intro_To_File_Input_and_Output/
+      title: 00 Intro To File Input And Output
+    - path: /lessons/Module1/01_File_Recorder/
+      title: 01 File Recorder
+    - path: /lessons/Module1/02_File_Encrypt_Decrypt/
+      title: 02 File Encrypt Decrypt
+    - path: /lessons/Module1/03_To_Do_List/
+      title: 03 To Do List
+    - path: /lessons/Module1/04_Directory_Iteration/
+      title: 04 Directory Iteration
+    - path: /lessons/Module1/99_extras/
+      title: 99 Extras Pixel Art Save State
     collapsable: false
-    path: /lessons/lesson2/
-    title: Lesson 2
+    title: Module1
+  - children:
+    - path: /lessons/Module2/00_Thread_Demo/
+      title: 00 Thread Demo
+    - path: /lessons/Module2/01_Olympic_Rings/
+      title: 01 Olympic Rings
+    - path: /lessons/Module2/02_Advanced_Robot_Race/
+      title: 02 Advanced Robot Race
+    - path: /lessons/Module2/03_Threaded_Greeting/
+      title: 03 Threaded Greeting
+    - path: /lessons/Module2/04_Thread_Pool/
+      title: 04 Thread Pool
+    - path: /lessons/Module2/05_Synchronized_Swimming/
+      title: 05 Synchronized Swimming
+    - path: /lessons/Module2/06_Wait_and_Notify/
+      title: 06 Wait And Notify Example
+    collapsable: false
+    title: Module2
+  - children:
+    - path: /lessons/Module3/00_Click_Chat/
+      title: 00 Click Chat Gui
+    - path: /lessons/Module3/01_Intro_To_Sockets/
+      title: 01 Intro To Sockets Client
+    - path: /lessons/Module3/02_Chat_Application/
+      title: 02 Chat Application
+    collapsable: false
+    title: Module3
+  - children:
+    - path: /lessons/Module4/00_Binary_Conversion/
+      title: 00 Binary Conversion
+    - path: /lessons/Module4/01_Bit_Shifting/
+      title: 01 Bit Shifting
+    - path: /lessons/Module4/02_AND_OR_and_XOR/
+      title: 02 And Or And Xor
+    - path: /lessons/Module4/03_Printing_Binary/
+      title: 03 Printing Binary
+    - path: /lessons/Module4/04_Light_Switches/
+      title: 04 Light Switches
+    - path: /lessons/Module4/05_Base64_Decoder/
+      title: 05 Base64 Decoder
+    collapsable: false
+    title: Module4
 title: League Demo

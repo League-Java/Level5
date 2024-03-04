@@ -1,0 +1,21 @@
+---
+assignment: 02_Intro_To_Streams
+dir: levels/Level5/Module0/src/_02_Intro_To_Streams
+lesson: 02_Intro_To_Streams
+level: Level5
+module: Module0
+oassignment: 02_Intro_To_Streams
+opath: levels/Level5/Module0/src/_02_Intro_To_Streams
+title: 02 Intro To Streams
+---
+# 02 Intro To Streams
+
+{{ forkrepo(fm_level, fm_module) }}
+
+{{ reporef(fm_level, fm_module) }}
+
+
+
+
+{{ javaref(fm_level, fm_module,fm_lesson,fm_assignment, fm_dir) }}
+

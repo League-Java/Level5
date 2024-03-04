@@ -3,22 +3,55 @@ description: A Demo of the League Curriculum websites
 title: League Demo
 tagline: Igniting Young Minds Through Programming
 pages:
-  - index.md
-  - about.md
+- index.md
+- about.md
 resources:
-  - flag.png
-  - word-logo.png
+- flag.png
+- word-logo.png
 sidebar:
-  - path: /
-    title: Introduction
+- path: /
+  title: Introduction
 lessons:
-  
-  lesson1:
-    title: Getting Started # neet a title b/c there is no index.md
+  Module0:
+    title: Module0
     assignments:
-     - lesson1/assignment_a.md
-  lesson2:
-    # title: No Title # Don't need title, has index.md
+    - Module0/00_JButtons_with_Lambdas
+    - Module0/01_Lambda_Methods
+    - Module0/02_Intro_To_Streams
+    - Module0/03_Sorting_With_Streams
+    - Module0/04_Searching_With_Streams
+    - Module0/05_Minesweeper
+  Module1:
+    title: Module1
     assignments:
-    - lesson2/assignment_b.md
-
+    - Module1/00_Intro_To_File_Input_and_Output
+    - Module1/01_File_Recorder
+    - Module1/02_File_Encrypt_Decrypt
+    - Module1/03_To_Do_List
+    - Module1/04_Directory_Iteration
+    - Module1/99_extras
+  Module2:
+    title: Module2
+    assignments:
+    - Module2/00_Thread_Demo
+    - Module2/01_Olympic_Rings
+    - Module2/02_Advanced_Robot_Race
+    - Module2/03_Threaded_Greeting
+    - Module2/04_Thread_Pool
+    - Module2/05_Synchronized_Swimming
+    - Module2/06_Wait_and_Notify
+  Module3:
+    title: Module3
+    assignments:
+    - Module3/00_Click_Chat
+    - Module3/01_Intro_To_Sockets
+    - Module3/02_Chat_Application
+  Module4:
+    title: Module4
+    assignments:
+    - Module4/00_Binary_Conversion
+    - Module4/01_Bit_Shifting
+    - Module4/02_AND_OR_and_XOR
+    - Module4/03_Printing_Binary
+    - Module4/04_Light_Switches
+    - Module4/05_Base64_Decoder
