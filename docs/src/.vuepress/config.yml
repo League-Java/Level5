@@ -1,5 +1,5 @@
 base: /Level5/
-description: A Demo of the League Curriculum websites
+description: Documentation and links for League Java Level 5
 head:
 - - meta
   - content: '#F37121'
@@ -104,4 +104,4 @@ themeConfig:
       title: 05 Base64 Decoder
     collapsable: false
     title: Module4
-title: League Demo
+title: Java Level 5
